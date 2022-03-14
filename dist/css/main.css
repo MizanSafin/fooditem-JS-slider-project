@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu_container {
+  width: 100vw;
+  min-height: 100vh;
+  background: #333623;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.menu_Box {
+  max-width: 450px;
+  width: 100%;
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 2px 6px 2px #000;
+          box-shadow: 1px 2px 6px 2px #000;
+}
+
+.menu_Box img {
+  width: 350px;
+  height: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  font-family: tahoma;
+  font-size: 20px;
+}
+
+p {
+  font-family: "mv boli",sans-serif;
+  margin: 10px;
+  text-align: justify;
+  word-spacing: 3px;
+}
+
+.btn {
+  width: 70%;
+  margin: 20px auto;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.btn button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 5px #5e5e5e;
+          box-shadow: 0px 0px 5px #5e5e5e;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn button:hover {
+  background: cornflowerblue;
+  color: #ddd;
+}
+/*# sourceMappingURL=main.css.map */
